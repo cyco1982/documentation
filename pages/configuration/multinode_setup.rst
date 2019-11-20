@@ -75,7 +75,7 @@ Finally, the MongoDB connection string in the Graylog configuration file should 
 Graylog to Elasticsearch connection
 -----------------------------------
 
-Graylog will connect to the Elasticsearch `REST API <https://www.elastic.co/guide/en/elasticsearch/reference/5.4/_exploring_your_cluster.html>`__.
+Graylog will connect to the Elasticsearch `REST API <https://www.elastic.co/guide/en/elasticsearch/reference/7.5/cat.html>`__.
 
 To avoid issues with the connection to the Elasticsearch cluster you should add some of the network addresses of the Elasticsearch nodes to ``elasticsearch_hosts``.
 
